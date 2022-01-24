@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<TicketManagementSystem.Infrastructure.TicketIssueDbContext>
 (
-    options=>
+    options=>  
        options.UseSqlServer
        (
            connectionString: "server=(local);database=TicketIssueDb;integrated security=sspi"
