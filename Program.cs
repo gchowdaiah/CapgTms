@@ -14,7 +14,7 @@ builder.Services.AddDbContext<TicketManagementSystem.Infrastructure.TicketIssueD
        (
            connectionString: "server=(local);database=TicketIssueDb;integrated security=sspi"
        )
-);
+); 
 
 
 // Add services to the container.
