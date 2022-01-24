@@ -3,18 +3,18 @@ using TicketManagementSystem.Infrastructure;
 using TicketManagementSystem.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 var builder = WebApplication.CreateBuilder(args);
-
+// gaa
 // Add services to the container.
 // Add services to the container.
 
 builder.Services.AddDbContext<TicketManagementSystem.Infrastructure.TicketIssueDbContext>
 (
-    options=>
+    options =>
        options.UseSqlServer
        (
            connectionString: "server=(local);database=TicketIssueDb;integrated security=sspi"
        )
-); 
+);
 
 
 // Add services to the container.
