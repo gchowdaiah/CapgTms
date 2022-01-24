@@ -18,7 +18,7 @@ namespace TicketManagementSystem.Infrastructure
         public DbSet<Manager> Managers { get; set; }
         public DbSet<Operators> Operator { get; set; }
         public DbSet<Roles> Role { get; set; }
-        public DbSet<Tickets> Ticket { get; set; }
+        public DbSet<Tickets> Ticket { get; set; } 
         public DbSet<TrackStatus> TrackStatuses { get; set; }
         public DbSet<Users> User { get; set; }
        
